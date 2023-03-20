@@ -13,4 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: echo "teste de pull merged"
+      - run: echo ${GITHUB_SHA}
