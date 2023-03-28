@@ -2,7 +2,7 @@ name: teste on pull merged
 
 on:
   workflow_run:
-    workflows: ["teste on push"]
+    workflows: ["teste on pull"]
     branches: [master]
     types:
       - completed
